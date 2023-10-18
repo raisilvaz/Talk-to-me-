@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="../node_modules/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="../styles/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css">
+    <script defer src="sweetalert2.all.min.js"></script>
+    <script defer src="./scripts/index.js"></script>
+    <script defer src="https://kit.fontawesome.com/ffcb606459.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Gabarito:regular,500,600,700,800,900" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <header id="header">
+        <span class="material-symbols-outlined">
+            keyboard </span> <h1>Converse comigo</h1>
+
+    <!--Modelo de cada Post -->
+    <!-- <div id="post">
+        <h2 id="user"></h2>
+        <p id="message"></p>
+    </div> -->
+
+    <h4 class="typing-animation">
+   Carregando... </h4>
+
+    </header>
+
+    <div class="conteiner-posts">
+
+    </div>
+
+    <dialog>
+        <button id="fecha"><i class="fa-regular fa-circle-xmark"></i></button><br>
+        <input type="text" id="name" placeholder="Digite seu nome aqui"><br>
+        <textarea name="message" id="box-message" maxlength="200" cols="10" rows="5" placeholder="Digite sua mensagem aqui"></textarea><br>
+        <input type="submit" id="Enviar" value="Enviar">
+        <input type="reset" id="Limpar" value="Limpar">
+    </dialog>
+
+    <button id="abriMod"><i class="fa-regular fa-plus"></i></button>
+</body>
+
+</html>
